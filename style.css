@@ -96,7 +96,7 @@ header h1 {
 }
 
 header address {
-    float: left;
+    float: right;
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
@@ -127,6 +127,12 @@ header input {
     position: absolute;
     top: 0;
     width: 100%;
+}
+table.data {
+    font-size: 75%;
+    table-layout: fixed;
+    border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+    clear: both;
 }
 
 /* article */
