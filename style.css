@@ -1,7 +1,3 @@
-:root {
-    --company-primary-color: &lt;&lt;[invoice_key].[company_key].[primary_color_hex]&gt;&gt;;
-    --company-secondary-color: &lt;&lt;[invoice_key].[company_key].[secondary_color_hex]&gt;&gt;
-}
 /* reset */
 * {
     box-sizing: content-box;
@@ -128,11 +124,25 @@ header input {
     top: 0;
     width: 100%;
 }
+
+/* table data encabezados clientes */
 table.data {
     font-size: 75%;
     table-layout: fixed;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     clear: both;
+}
+/* table data */
+table.data th {
+    width: 50%;
+    text-align: center; 
+    color: #FFF; 
+    background: #27649d
+}
+
+table.data td {
+    width: 50%;
+    text-align: center
 }
 
 /* article */
