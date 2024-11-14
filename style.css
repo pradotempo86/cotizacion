@@ -202,6 +202,9 @@ aside h1 {
     margin: 0 0 1em;
     border-color: #999;
     border-bottom-style: solid;
+    font-size: 75%;
+    font-style: normal;
+    line-height: 1.25;    
 }
 
 /* javascript */
