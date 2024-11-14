@@ -133,8 +133,9 @@ table.data {
     width: 100%;
 }
 /* table data */
-table.data th {    
-    text-align: center; 
+table.data th {
+    font-weight: bold;
+    text-align: center;
     color: #FFF; 
     background: #27649d;
     font-size: 100%;  
