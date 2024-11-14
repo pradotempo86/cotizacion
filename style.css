@@ -127,8 +127,7 @@ header input {
 
 /* table data encabezados clientes */
 table.data {
-    font-size: 75%;
-    table-layout: fixed;
+    font-size: 75%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     clear: both;
 }
