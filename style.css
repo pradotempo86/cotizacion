@@ -1,3 +1,7 @@
+:root {
+    --company-primary-color: &lt;&lt;[invoice_key].[company_key].[primary_color_hex]&gt;&gt;;
+    --company-secondary-color: &lt;&lt;[invoice_key].[company_key].[secondary_color_hex]&gt;&gt;
+}
 /* reset */
 * {
     box-sizing: content-box;
