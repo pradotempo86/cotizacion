@@ -130,8 +130,6 @@ table.data {
     font-size: 75%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     clear: both;
-    float: center;
-    width: 80%;
 }
 /* table data */
 table.data th {    
