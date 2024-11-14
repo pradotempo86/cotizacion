@@ -134,13 +134,13 @@ table.data {
 }
 /* table data */
 table.data th {    
-    text-align: center; 
+    text-align: left; 
     color: #FFF; 
     background: #27649d;
 }
 
 table.data td {
-    text-align: center;
+    text-align: left;
 }
 
 
