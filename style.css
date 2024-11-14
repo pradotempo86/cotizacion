@@ -133,17 +133,16 @@ table.data {
     clear: both;
 }
 /* table data */
-table.data th {
-    width: 50%;
+table.data th {    
     text-align: center; 
     color: #FFF; 
-    background: #27649d
+    background: #27649d;
 }
 
 table.data td {
-    width: 50%;
-    text-align: center
+    text-align: center;
 }
+
 
 /* article */
 article,
@@ -201,7 +200,7 @@ table.inventory th {
 }
 
 table.inventory td {
-    text-align: right;
+    text-align: left;
 }
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
