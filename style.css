@@ -54,6 +54,7 @@ th, td {
     padding: 0.5em;
     position: relative;
     text-align: left;
+    width: 100%;
 }
 
 th {
@@ -139,6 +140,7 @@ table.data th {
     color: #FFF; 
     background: #27649d;
     font-size: 100%;  
+    width: 100%;
 }
 
 table.data td {
