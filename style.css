@@ -46,6 +46,8 @@ table {
     font-size: 75%;
     table-layout: fixed;
     width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
 }
 
@@ -54,7 +56,8 @@ th, td {
     padding: 0.5em;
     position: relative;
     text-align: left;
-    width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
 }
 
 th {
@@ -106,7 +109,8 @@ header img {
     float: right;
     margin: 0 0 1em 1em;
     max-height: 25%;
-    max-width: 60%;
+    min-width: 800px;
+    max-width: 1080px;
     position: relative;
 }
 
@@ -131,7 +135,9 @@ table.data {
     font-size: 75%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     clear: both;
-    width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
+
 }
 /* table data */
 table.data th {
@@ -141,6 +147,9 @@ table.data th {
     background: #27649d;
     font-size: 100%;  
     width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
+    
 }
 
 table.data td {
