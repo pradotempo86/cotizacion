@@ -47,6 +47,11 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+    border: 0px solid #000; /* Añadido un borde sólido para todas las celdas */
+    padding: 0.5em;
+    position: relative;
+    text-align: left;
+
 }
 
 
