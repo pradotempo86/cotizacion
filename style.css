@@ -47,11 +47,6 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
-    border: 0px solid #000; /* Añadido un borde sólido para todas las celdas */
-    padding: 0.5em;
-    position: relative;
-    text-align: left;
-
 }
 
 
@@ -158,6 +153,13 @@ table.inventory {
     margin: 0 0 3em;
     clear: both;
 }
+
+table { font-size: 75%; table-layout: fixed; width: 100%; }
+table { border-collapse: separate; border-spacing: 2px; }
+th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+th, td { border-radius: 0.25em; border-style: solid; }
+th { background: #EEE; border-color: #BBB; }
+td { border-color: #DDD; }
 
 article:after {
     content: "";
