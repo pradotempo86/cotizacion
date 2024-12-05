@@ -152,13 +152,13 @@ table.meta,
 table.inventory {
     margin: 0 0 3em;
     clear: both;
-    font-size: 100%;    
+    font-size: 75%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     padding: 0.5em;
     text-align: left;
 }
 
-table { font-size: 100%; table-layout: fixed; width: 100%; }
+table { font-size: 75%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
 th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
 th, td { border-radius: 0.25em; border-style: solid; }
@@ -178,7 +178,7 @@ article h1 {
 
 article address {
     float: left;
-    font-size: 140%;
+    font-size: 125%;
     font-weight: bold;
 }
 
@@ -223,7 +223,7 @@ aside h1 {
     margin: 0 0 1em;
     border-color: #999;
     border-bottom-style: solid;
-    font-size: 100%;
+    font-size: 75%;
     font-style: normal;
     line-height: 1.25;    
 }
@@ -298,5 +298,5 @@ tr:hover .cut {
 
 /* Estilo para el texto más pequeño */
 .small-text {
-    font-size: 80%;
+    font-size: 70%;
 }
