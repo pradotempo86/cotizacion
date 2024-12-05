@@ -152,7 +152,7 @@ table.meta,
 table.inventory {
     margin: 0 0 3em;
     clear: both;
-    font-size: 75%;    
+    font-size: 65%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     padding: 0.5em;
     text-align: left;
