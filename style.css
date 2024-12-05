@@ -50,7 +50,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
+    border: 0; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
     position: relative;
     text-align: left;
@@ -165,7 +165,7 @@ table.inventory {
 
 table { font-size: 50%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
-th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+th, td { border-width: 0; padding: 0.5em; position: relative; text-align: left; }
 th, td { border-radius: 0.25em; border-style: solid; }
 th { background: #EEE; border-color: #BBB; }
 td { border-color: #DDD; }
@@ -222,10 +222,10 @@ table.inventory td {
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
-th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+th, td { border-width: 0; padding: 0.5em; position: relative; text-align: left; }
 th, td { border-radius: 0.25em; border-style: solid; }
 th { background: #EEE; border-color: #BBB; }
-td { border-color: #DDD; }
+/*td { border-color: #DDD; }
 
 /* aside */
 aside h1 {
