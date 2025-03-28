@@ -161,7 +161,7 @@ table.inventory {
 }
 
 table { font-size: 50%; table-layout: fixed; width: 100%; }
-table { border-collapse: separate; border-spacing: 2px; }
+table { border-collapse: separate; border-spacing: .5px; }
 th, td { border-width: 0; padding: 0.5em; position: relative;  }
 th, td { border-radius: 0.25em; border-style: solid; }
 
