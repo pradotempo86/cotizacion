@@ -84,7 +84,7 @@ header {
 }
 
 header h1 {
-    background: #27649d;
+    background: #EBAA32;
     border-radius: 0.25em;
     color: #FFF;
     margin: 0;
@@ -140,7 +140,7 @@ table.data th {
     font-weight: bold;
     text-align: center;
     color: #FFF; 
-    background: #27649d;
+    background: #EBAA32;
     font-size: 100%;  
     width: 100%;    
 }
