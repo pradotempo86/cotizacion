@@ -52,8 +52,7 @@ table {
 th, td {
     border: 0; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
-    position: relative;
-    text-align: left;
+    position: relative;    
 }
 
 
@@ -163,9 +162,9 @@ table.inventory {
 
 table { font-size: 50%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
-th, td { border-width: 0; padding: 0.5em; position: relative; text-align: left; }
+th, td { border-width: 0; padding: 0.5em; position: relative;  }
 th, td { border-radius: 0.25em; border-style: solid; }
-th { background: #EEE; border-color: #BBB; }
+
 td { border-color: #DDD; }
 
 article:after {
