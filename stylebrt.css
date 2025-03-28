@@ -125,7 +125,7 @@ table.data {
     font-size: 75%;    
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
     clear: both;
-    border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
+    border: 0.5px solid #000; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
     position: relative;
     text-align: left;
